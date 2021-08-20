@@ -1,0 +1,56 @@
+<html>
+<head>
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+</head>
+<body>
+   <div>
+       <h1>Tic-Tac-Toe</h1>
+       <p>
+           <ul>
+               <li>
+                   There are two players: X and O. 
+               </li>
+               <li>
+                   X goes first.
+               </li>
+               <li>
+                   Click on a cell.
+               </li>
+               <li>
+                   Win by having three in a row.
+               </li>
+               <li>
+                   Game ends when there is no more legal moves.
+               </li>
+           </ul>
+       </p>
+    </div>
+    <div>
+        <div id="playerTurn">X's Turn</div>
+    </div>
+    <div id="container">
+        <div data-row="0" class="row">
+            <div data-column="0" data-cell="0,0" class="cell">.</div>
+            <div data-column="1" data-cell="0,1" class="cell">.</div>
+            <div data-column="2" data-cell="0,2" class="cell">.</div>
+        </div>
+        <div data-row="1" class="row">
+            <div data-column="0" data-cell="1,0" class="cell">.</div>
+            <div data-column="1" data-cell="1,1" class="cell">.</div>
+            <div data-column="2" data-cell="1,2" class="cell">.</div>
+        </div>
+        <div data-row="2" class="row">
+            <div data-column="0" data-cell="2,0" class="cell">.</div>
+            <div data-column="1" data-cell="2,1" class="cell">.</div>
+            <div data-column="2" data-cell="2,2" class="cell">.</div>
+        </div>
+    </div>
+    <div>
+        <div id="gameResult">
+            
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
